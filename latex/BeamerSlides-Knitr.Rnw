@@ -11,7 +11,6 @@
 \usepackage{listings}
 \usepackage{hyperref}
 \usepackage{mathrsfs}
-\usepackage{natbib}
 \usepackage{setspace}
 \usepackage{url}
 
