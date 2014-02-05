@@ -118,7 +118,7 @@ Iowa State University \\ $\quad$ \\
 
 \vfill
 \large
-Copyright \copyright ~Will Landau 2013. 
+Copyright \copyright ~Will Landau 2014. 
 \end{center}
 \end{titlepage}
 
