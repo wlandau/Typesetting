@@ -36,8 +36,8 @@
 \providecommand{\wh}[1]{\widehat{#1}}
 
 %\renewcommand\bibname{References}
-\renewcommand{\thesection}{Problem \arabic{section}}
-\renewcommand{\thesubsection}{Part \alph{subsection}}
+%\renewcommand{\thesection}{Problem \arabic{section}}
+%\renewcommand{\thesubsection}{Part \alph{subsection}}
 
 \fancyhead{}
 \fancyfoot{}
