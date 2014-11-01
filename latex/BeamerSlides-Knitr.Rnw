@@ -85,13 +85,8 @@ knit_hooks$set(small.mar = function(before, options, envir) {
 
 \begin{frame}
 \titlepage
- \end{frame}
- 
-\begin{frame}
-\frametitle{Outline}
-\tableofcontents
 \end{frame}
- 
+
  \AtBeginSection[]
 {
    \begin{frame}
