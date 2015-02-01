@@ -70,10 +70,10 @@
  \lstset{frame = single}
 
 <<echo = F>>=
-options(width = 50) # R output width
-knit_hooks$set(small.mar = function(before, options, envir) {
-    if (before) par(oma = c(0,0,0,0), mar=c(5,2,0,0)+0.1)  # mar = c(bottom, left, top, right)
-})
+library(knitr)
+knitr::knit_hooks$set(inline = as.character)
+knitr::opts_chunk$set(cache=T, fig.height = 4, echo = F, results="hide")
+knitr::opts_knit$set(eval.after = 'fig.cap')
 @
 
 \title{Title}
