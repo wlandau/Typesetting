@@ -1,0 +1,35 @@
+---
+title: "Minimal Working Example"
+author: "Andee Kaplan"
+date: "March 11, 2015"
+output:
+  pdf_document:
+    fig_caption: true
+bibliography: bibliography.bib
+---
+
+This is a minimal working example of an Rmarkdown file with a bibliography, citations, and captions. Please see table \ref{tab:example} for a table.
+
+```{r, message=FALSE, echo=FALSE}
+library(knitr)
+library(dplyr)
+library(ggplot2)
+
+cars %>
+  summary() %>%
+  kable(caption = "\\label{tab:example}This is a table!")
+
+```
+
+Here is a plot, plot \ref{fig:cars}.
+
+```{r, echo=FALSE, fig.cap="\\label{fig:cars} This is a scatterplot."}
+mtcars %>%
+  ggplot() +
+  geom_point(aes(x = mpg, y = disp))
+```
+
+In this paper, [@rmarkdown] was very important.
+
+#References
+
