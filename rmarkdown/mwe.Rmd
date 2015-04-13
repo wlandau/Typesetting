@@ -5,6 +5,7 @@ date: "March 11, 2015"
 output:
   pdf_document:
     fig_caption: true
+    number_sections: true
 bibliography: bibliography.bib
 ---
 
@@ -15,9 +16,9 @@ library(knitr)
 library(dplyr)
 library(ggplot2)
 
-cars %>
-  summary() %>%
-  kable(caption = "\\label{tab:example}This is a table!")
+
+   
+  kable(summary(cars), caption = "\\label{tab:example}This is a table!")
 
 ```
 

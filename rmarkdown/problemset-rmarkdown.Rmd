@@ -5,6 +5,7 @@ date: Date
 output: 
   pdf_document:
     fig_caption: yes
+    number_sections: true
 ---
 
 ```{r, echo=FALSE}
