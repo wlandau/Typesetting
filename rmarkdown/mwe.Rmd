@@ -6,6 +6,7 @@ output:
   pdf_document:
     fig_caption: true
     number_sections: true
+    toc: true
 bibliography: bibliography.bib
 ---
 

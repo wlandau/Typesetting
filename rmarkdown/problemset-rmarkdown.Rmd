@@ -6,6 +6,7 @@ output:
   pdf_document:
     fig_caption: yes
     number_sections: true
+    toc: true
 ---
 
 ```{r, echo=FALSE}
