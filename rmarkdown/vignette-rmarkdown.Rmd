@@ -1,0 +1,15 @@
+---
+title: R Package
+author: Will Landau
+date: 2015
+output: 
+  rmarkdown::html_vignette:
+    number_sections: true
+    toc: true
+vignette: >
+  \VignetteEngine{knitr::rmarkdown}
+  \VignetteIndexEntry{R Package}
+  \usepackage[utf8]{inputenc}
+---
+
+
