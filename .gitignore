@@ -13,6 +13,7 @@
 *.bbl
 *.blg
 *.log
+*.pdf
 *.gz
 *.tar
 *.zip
