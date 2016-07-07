@@ -1,4 +1,5 @@
 % !TEX TS-program = knitr
+% Compile with XeLaTeX
 %\documentclass{beamer}
 \documentclass[handout]{beamer}
 \usetheme{metropolis} % requires modern Beamer theme at https://github.com/matze/mtheme
@@ -7,6 +8,7 @@
 \usepackage{caption}
 \usepackage{color}
 \usepackage{enumerate}
+\usepackage{fontspec}
 \usepackage{listings}
 \usepackage{hyperref}
 \usepackage{mathrsfs}
@@ -14,6 +16,9 @@
 \usepackage{tikz}
 \usepackage{tkz-graph}
 \usepackage{url}
+
+\setsansfont{Arial}
+\setmonofont{Arial}
 
 \providecommand{\all}{\ \forall \ }
 \providecommand{\bs}{\backslash}
