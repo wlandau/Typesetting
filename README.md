@@ -1,4 +1,1 @@
-Typesetting
-===========
-
 miscellaneous typesetting code
