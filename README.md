@@ -1,1 +1,1 @@
-miscellaneous typesetting code
+miscellaneous typesetting code templates
